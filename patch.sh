@@ -16,3 +16,4 @@ function wptd_useradd() {
 }
 EOF
 
+sed -i -e 's/apt-get -qq update/apk update/g' ${WPT_REPO_PATH}/Makefile
