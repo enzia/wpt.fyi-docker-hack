@@ -13,6 +13,7 @@ RUN apk --update add \
         firefox-esr \
         go \
         openjdk11-jdk \
+        make \
         nodejs \
         npm \
         python3 \
